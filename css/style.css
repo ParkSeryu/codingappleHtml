@@ -38,20 +38,19 @@
 .left-menu {
   width: 20%;
   height: 400px;
-  float: left;
   background: cornflowerblue;
+  display: inline-block;
 }
 
 .right {
   width: 80%;
   height: 400px;
-  float: right;
   background: coral;
+  display: inline-block;
 }
 
 .footer {
   width: 100%;
   height: 100px;
   background-color: grey;
-  clear: both
 }
