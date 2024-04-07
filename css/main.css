@@ -97,3 +97,13 @@ td, th {
 .f-lg {
   font-size: 20px;
 }
+
+body {
+  margin: 0px;
+  font-family: 'nanumsquare ', ' dotum ', ' arial ';
+}
+
+@font-face {
+  font-family: 'nanumsquare ';
+  src: url('../fonts/NanumSquareB.woff') format('woff');
+}
