@@ -135,3 +135,13 @@
   left: 10px;
 }
 
+.explain-box {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  position: relative;
+  top: -40px;
+}
+
