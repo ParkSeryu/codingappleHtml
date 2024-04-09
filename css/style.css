@@ -145,3 +145,14 @@
   top: -40px;
 }
 
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 10px;
+  }
+}
