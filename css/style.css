@@ -289,3 +289,24 @@ progress::-moz-progress-bar {
   background-color: red;
   border-radius: 2px;
 }
+
+.ani-text {
+  text-align: center;
+}
+
+.ani-text:hover {
+  animation-name: 왔다갔다;
+  animation-duration: 1s;
+}
+
+@keyframes 왔다갔다 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
